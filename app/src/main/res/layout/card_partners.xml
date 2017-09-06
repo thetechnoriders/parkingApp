@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="95dp"
+            android:src="@drawable/icon_marker"
+            android:layout_gravity="right"
+            android:id="@+id/img_parking"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parking 1"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/tv_title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr Daud Pota Rd, Karachi, Pakistan"
+                android:layout_marginTop="4dp"
+                android:id="@+id/tv_address"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price  €40/Hour"
+                    android:id="@+id/tv_price"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Free  155"
+                    android:id="@+id/tv_free"
+                    android:layout_marginLeft="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Distance  8.1KM"
+                    android:id="@+id/tv_distance"
+                    android:layout_marginLeft="15dp"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timings: "
+                android:id="@+id/tv_timimgs"
+                android:layout_marginTop="4dp"/>
+
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+</android.support.v7.widget.CardView>

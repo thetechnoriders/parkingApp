@@ -1,0 +1,204 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.parkingapp.fragments.PartnerDetailFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+
+       <ImageView
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="80dp"
+           android:layout_marginRight="80dp"
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:id="@+id/img_parking_space"/>
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Parking 1"
+           android:textSize="20sp"
+           android:layout_marginTop="10dp"
+           android:textStyle="bold"
+           android:textAlignment="center"
+           android:id="@+id/tv_title"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Address"
+           android:textSize="20sp"
+           android:layout_marginTop="10dp"
+           android:textAlignment="center"
+           android:id="@+id/tv_address"/>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Price: "
+               android:textStyle="bold"
+               android:textSize="15sp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="20dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="40/Hour"
+               android:textSize="15sp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="20dp"
+               android:id="@+id/tv_price"/>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Parking Space: "
+               android:textStyle="bold"
+               android:textSize="15sp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="20dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="505"
+               android:textSize="15sp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="20dp"
+               android:id="@+id/tv_parking_space"/>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Free Parking Space: "
+               android:textStyle="bold"
+               android:textSize="15sp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="20dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="200"
+               android:textSize="15sp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="20dp"
+               android:id="@+id/tv_free_space"/>
+
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Timings: "
+               android:textStyle="bold"
+               android:textSize="15sp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="20dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="12-9"
+               android:textSize="15sp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="20dp"
+               android:id="@+id/tv_timimgs"/>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Details: "
+               android:textStyle="bold"
+               android:textSize="15sp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="20dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipk. It has survived not only five centuries,"
+               android:textSize="15sp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="20dp"
+               android:id="@+id/tv_details"/>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Deals: "
+               android:textStyle="bold"
+               android:textSize="15sp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="20dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipk. It has survived not only five centuries,"
+               android:textSize="15sp"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="30dp"
+               android:id="@+id/tv_deals"/>
+
+
+       </LinearLayout>
+
+
+
+
+   </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Real Time Parking SE</string>
+    <string name="title_activity_maps">Real Time Parking SE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="zip_hint">Please a Zip Code</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="euro_sign">€</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_partner">PartnerActivity</string>
+
+
+</resources>
